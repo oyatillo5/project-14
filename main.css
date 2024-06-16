@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+/* HEADER */
+header {
+  background-color: #013fff;
+  padding: 11px 0;
+  margin-bottom: 40px;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  margin-left: 78px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  padding-top: 12px;
+}
+.nav-item {
+  margin-right: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #e6e6e6;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-telgrm {
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ffffff66;
+  margin-right: 16px;
+}
+
+.btn-tel {
+  padding: 10px 67px;
+  border-radius: 12px;
+  border: none;
+  background-color: #ffffff60;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #e6e6e6;
+  font-family: "Poppins", sans-serif;
+  margin-left: 16px;
+}
+
+/* TRUCK-SECTION */
+
+.truck-img {
+  margin-bottom: 40px;
+}
+main {
+  margin-bottom: 50px;
+}
+
+/* SERVICE */
+.service-section {
+  margin-top: 120px;
+}
+.service-title {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
+.service-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.img-box {
+  background-color: #f2f2f2;
+  border-radius: 24px;
+  padding: 40px 33px;
+  width: 426px;
+}
+.text-boxs {
+  margin-left: 20px;
+}
+.text-box-title {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 78px;
+}
+.text-box {
+  display: flex;
+  justify-content: space-between;
+}
+.box-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+  max-width: 660px;
+}
+.btn-text-2 {
+  padding: 12px;
+  background-color: #013fff;
+  border-radius: 12px;
+  border: none;
+}
+/* TEAM-SECTION */
+
+.team-section {
+  border-color: #f2f2f2;
+}
+.arrow {
+}
+.arrow-one {
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.arrow-two {
+  border: 1px solid grey;
+  padding: 29px;
+  border-radius: 50%;
+  background-color: blue;
+}
+/* RESPONSIVE */
+
+@media only screen and (max-width: 720px) {
+  .btn-telgrm {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .truck-section {
+    padding: 0 30px;
+  }
+}
